@@ -17,7 +17,7 @@ namespace ShopListing
     [Serialized]
     public class ShopListingData : Singleton<ShopListingData>, IStorage
     {
-        [Serialized] public List<ShoppingEntry> Entries { get; set; } = new();
+        [Serialized, ThreadSafe] public List<ShoppingEntry> Entries { get; set; } = new();
         public IPersistent? StorageHandle { get; set; }
     }
 
