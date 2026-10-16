@@ -1,0 +1,8 @@
+{
+  "name": "Shop Listing",
+  "version": "0.1.0",
+  "ecoVersion": "0.14.2",
+  "author": "Beinded (JuanBerta)",
+  "website": "https://github.com/JuanBerta/ShopListingMod",
+  "description": "A mod that lets you select items to add to a shop list in x amount, and shows you in real time where to buy it and it's distance."
+}
