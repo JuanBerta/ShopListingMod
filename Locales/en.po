@@ -1,0 +1,69 @@
+# English (base) translations for Shop Listing.
+# msgid is the source string; empty msgstr means "use the source string".
+# Translations are loaded by Eco from the mod's Locales folder at runtime.
+
+msgid "Mods"
+msgstr ""
+
+msgid "Shows the commands available from the Shop Listing mod"
+msgstr ""
+
+msgid "Adds an item to your shopping list. Usage: /sl add <item> <amount>"
+msgstr ""
+
+msgid "Lists your shopping list and shows in real time where each item is sold, at what price and how far away. Usage: /sl list"
+msgstr ""
+
+msgid "Removes an item from your shopping list by item name or list index (1-based). Usage: /sl remove <item|index>"
+msgstr ""
+
+msgid "Clears your shopping list. Usage: /sl clear"
+msgstr ""
+
+msgid "Shows this help. Usage: /sl help"
+msgstr ""
+
+msgid "Welcome to the Shop Listing mod! Keep track of the items you want to buy and find in real time which stores sell them."
+msgstr ""
+
+msgid "Usage: /sl add <item> <amount>"
+msgstr ""
+
+msgid "Please provide a positive amount (e.g. /sl add Iron Bar 20)."
+msgstr ""
+
+msgid "There is nothing on your shopping list yet. Add items with /sl add <item> <amount>."
+msgstr ""
+
+msgid "Your shopping list is empty after clearing."
+msgstr ""
+
+msgid "Usage: /sl remove <item|index>"
+msgstr ""
+
+msgid "That index is out of range."
+msgstr ""
+
+msgid "Entry"
+msgstr ""
+
+msgid "Your shopping list:"
+msgstr ""
+
+msgid "Run /sl add <item> <amount> to add more items."
+msgstr ""
+
+msgid "- /sl add <item> <amount> — add an item and see all current sellers (price, stock, distance)"
+msgstr ""
+
+msgid "- /sl list — show the list with the best current deal per item"
+msgstr ""
+
+msgid "- /sl remove <item|index> — remove an entry by name or 1-based index"
+msgstr ""
+
+msgid "- /sl clear — empty the list"
+msgstr ""
+
+msgid "- /sl help — show this help"
+msgstr ""
