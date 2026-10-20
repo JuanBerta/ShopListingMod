@@ -1,69 +1,89 @@
-# English (base) translations for Shop Listing.
-# msgid is the source string; empty msgstr means "use the source string".
-# Translations are loaded by Eco from the mod's Locales folder at runtime.
+# English translations for Shop Listing (3.2.6: completed base + dynamic message templates).
+# msgid is the source string; dynamic strings are recorded as templates for future localization.
 
 msgid "Mods"
-msgstr ""
+msgstr "Mods"
 
 msgid "Shows the commands available from the Shop Listing mod"
-msgstr ""
+msgstr "Shows the commands available from the Shop Listing mod"
 
-msgid "Adds an item to your shopping list. Usage: /sl add <item> <amount>"
-msgstr ""
+msgid "Adds an item to your shopping list. Usage: /sl add <item> <amount> [targetPrice]"
+msgstr "Adds an item to your shopping list. Usage: /sl add <item> <amount> [targetPrice]"
 
 msgid "Lists your shopping list and shows in real time where each item is sold, at what price and how far away. Usage: /sl list"
-msgstr ""
+msgstr "Lists your shopping list and shows in real time where each item is sold, at what price and how far away. Usage: /sl list"
 
 msgid "Removes an item from your shopping list by item name or list index (1-based). Usage: /sl remove <item|index>"
-msgstr ""
+msgstr "Removes an item from your shopping list by item name or list index (1-based). Usage: /sl remove <item|index>"
 
-msgid "Clears your shopping list. Usage: /sl clear"
-msgstr ""
+msgid "Clears your shopping list. Usage: /sl clear [--yes]"
+msgstr "Clears your shopping list. Usage: /sl clear [--yes]"
 
 msgid "Shows this help. Usage: /sl help"
-msgstr ""
-
-msgid "Welcome to the Shop Listing mod! Keep track of the items you want to buy and find in real time which stores sell them."
-msgstr ""
-
-msgid "Usage: /sl add <item> <amount>"
-msgstr ""
+msgstr "Shows this help. Usage: /sl help"
 
 msgid "Please provide a positive amount (e.g. /sl add Iron Bar 20)."
-msgstr ""
+msgstr "Please provide a positive amount (e.g. /sl add Iron Bar 20)."
+
+msgid "The target price must be a positive number, or omit it to disable price alerts."
+msgstr "The target price must be a positive number, or omit it to disable price alerts."
 
 msgid "There is nothing on your shopping list yet. Add items with /sl add <item> <amount>."
-msgstr ""
+msgstr "There is nothing on your shopping list yet. Add items with /sl add <item> <amount>."
 
 msgid "Your shopping list is empty after clearing."
-msgstr ""
+msgstr "Your shopping list is empty after clearing."
 
-msgid "Usage: /sl remove <item|index>"
-msgstr ""
+msgid "Your shopping list is already empty."
+msgstr "Your shopping list is already empty."
 
 msgid "That index is out of range."
-msgstr ""
+msgstr "That index is out of range."
 
 msgid "Entry"
-msgstr ""
+msgstr "Entry"
 
 msgid "Your shopping list:"
-msgstr ""
+msgstr "Your shopping list:"
+
+msgid "Estimated total:"
+msgstr "Estimated total:"
 
 msgid "Run /sl add <item> <amount> to add more items."
-msgstr ""
+msgstr "Run /sl add <item> <amount> to add more items."
 
-msgid "- /sl add <item> <amount> — add an item and see all current sellers (price, stock, distance)"
-msgstr ""
+msgid "Welcome to the Shop Listing mod! Keep track of the items you want to buy and find in real time which stores sell them."
+msgstr "Welcome to the Shop Listing mod! Keep track of the items you want to buy and find in real time which stores sell them."
 
-msgid "- /sl list — show the list with the best current deal per item"
-msgstr ""
+msgid "- /sl add <item> <amount> [targetPrice] — add an item and see all current sellers (price, stock, distance); set targetPrice to get a proactive alert when someone sells below it"
+msgstr "- /sl add <item> <amount> [targetPrice] — add an item and see all current sellers (price, stock, distance); set targetPrice to get a proactive alert when someone sells below it"
+
+msgid "- /sl list — show the list with the best current deal per item and an estimated total"
+msgstr "- /sl list — show the list with the best current deal per item and an estimated total"
 
 msgid "- /sl remove <item|index> — remove an entry by name or 1-based index"
-msgstr ""
+msgstr "- /sl remove <item|index> — remove an entry by name or 1-based index"
 
-msgid "- /sl clear — empty the list"
-msgstr ""
+msgid "- /sl clear --yes — empty your list (requires --yes to confirm)"
+msgstr "- /sl clear --yes — empty your list (requires --yes to confirm)"
 
 msgid "- /sl help — show this help"
-msgstr ""
+msgstr "- /sl help — show this help"
+
+msgid "N/A"
+msgstr "N/A"
+
+# Dynamic message templates (interpolated at runtime; listed here for future
+# FormattableStringFactory-based localization).
+#. "Could not find an item named \"{item}\"."
+#. "{itemLink} x {qty} added to your shopping list. No store is currently selling it."
+#. "{itemLink} x {qty} added to your shopping list. {count} store(s) sell it:"
+#. "- {storeLink} — {price} each, {stock} in stock, {distance}m away at ({x}, {y}, {z})"
+#. "... and {more} more store(s)."
+#. "{itemLink} x {amount} — no store is currently selling it"
+#. "{itemLink} x {amount} — best: {storeLink}, {price} each, {stock} in stock, {distance}m away at ({x}, {y}, {z}) ({count} store(s))"
+#. "- {total} {currencyName}"
+#. "Your shopping list has {count} item(s). Run /sl clear --yes to remove them."
+#. "{itemLink} removed from your shopping list."
+#. "{itemLink} is not on your shopping list."
+#. "PRICE ALERT: {itemLink} is now {price} at {storeLink}, below your target of {targetPrice}."

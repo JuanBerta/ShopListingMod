@@ -1,8 +1,9 @@
 {
   "name": "Shop Listing",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "ecoVersion": "0.14.2.1",
   "author": "Beinded (JuanBerta)",
   "website": "https://github.com/JuanBerta/ShopListingMod",
-  "description": "A mod that lets you select items to add to a shop list in x amount, and shows you in real time where to buy it and it's distance."
+  "description": "A mod that lets you select items to add to a shop list in x amount, and shows you in real time where to buy it and its distance. / 让你把想买的物品加入购物清单并设定数量，实时显示哪里在卖、价格与距离。",
+  "displayName": "Shop Listing"
 }

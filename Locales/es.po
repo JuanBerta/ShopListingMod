@@ -1,0 +1,74 @@
+# Spanish translations for Shop Listing (3.2.6: additional language).
+# Traducciones al español para Shop Listing.
+
+msgid "Mods"
+msgstr "Mods"
+
+msgid "Shows the commands available from the Shop Listing mod"
+msgstr "Muestra los comandos disponibles del mod Shop Listing"
+
+msgid "Adds an item to your shopping list. Usage: /sl add <item> <amount> [targetPrice]"
+msgstr "Añade un artículo a tu lista de compra. Uso: /sl add <artículo> <cantidad> [precioObjetivo]"
+
+msgid "Lists your shopping list and shows in real time where each item is sold, at what price and how far away. Usage: /sl list"
+msgstr "Muestra tu lista de compra y en tiempo real dónde se vende cada artículo, a qué precio y a qué distancia. Uso: /sl list"
+
+msgid "Removes an item from your shopping list by item name or list index (1-based). Usage: /sl remove <item|index>"
+msgstr "Elimina un artículo de tu lista de compra por nombre o índice (desde 1). Uso: /sl remove <artículo|índice>"
+
+msgid "Clears your shopping list. Usage: /sl clear [--yes]"
+msgstr "Vacía tu lista de compra. Uso: /sl clear [--yes]"
+
+msgid "Shows this help. Usage: /sl help"
+msgstr "Muestra esta ayuda. Uso: /sl help"
+
+msgid "Please provide a positive amount (e.g. /sl add Iron Bar 20)."
+msgstr "Proporciona una cantidad positiva (p. ej. /sl add Iron Bar 20)."
+
+msgid "The target price must be a positive number, or omit it to disable price alerts."
+msgstr "El precio objetivo debe ser un número positivo, u omítelo para desactivar las alertas de precio."
+
+msgid "There is nothing on your shopping list yet. Add items with /sl add <item> <amount>."
+msgstr "Tu lista de compra está vacía. Añade artículos con /sl add <artículo> <cantidad>."
+
+msgid "Your shopping list is empty after clearing."
+msgstr "Tu lista de compra se ha vaciado."
+
+msgid "Your shopping list is already empty."
+msgstr "Tu lista de compra ya está vacía."
+
+msgid "That index is out of range."
+msgstr "Ese índice está fuera del rango."
+
+msgid "Entry"
+msgstr "Entrada"
+
+msgid "Your shopping list:"
+msgstr "Tu lista de compra:"
+
+msgid "Estimated total:"
+msgstr "Total estimado:"
+
+msgid "Run /sl add <item> <amount> to add more items."
+msgstr "Ejecuta /sl add <artículo> <cantidad> para añadir más artículos."
+
+msgid "Welcome to the Shop Listing mod! Keep track of the items you want to buy and find in real time which stores sell them."
+msgstr "¡Bienvenido al mod Shop Listing! Lleva el control de los artículos que quieres comprar y descubre en tiempo real qué tiendas los venden."
+
+msgid "- /sl add <item> <amount> [targetPrice] — add an item and see all current sellers (price, stock, distance); set targetPrice to get a proactive alert when someone sells below it"
+msgstr "- /sl add <artículo> <cantidad> [precioObjetivo] — añade un artículo y consulta todos los vendedores (precio, stock, distancia); fija precioObjetivo para recibir una alerta cuando alguien venda por debajo"
+
+msgid "- /sl list — show the list with the best current deal per item and an estimated total"
+msgstr "- /sl list — muestra la lista con la mejor oferta por artículo y un total estimado"
+
+msgid "- /sl remove <item|index> — remove an entry by name or 1-based index"
+msgstr "- /sl remove <artículo|índice> — elimina una entrada por nombre o índice"
+
+msgid "- /sl clear --yes — empty your list (requires --yes to confirm)"
+msgstr "- /sl clear --yes — vacía tu lista (requiere --yes para confirmar)"
+
+msgid "- /sl help — show this help"
+msgstr "- /sl help — muestra esta ayuda"
+
+msgid "N/A"
+msgstr "N/D"
